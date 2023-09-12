@@ -1,5 +1,14 @@
-p {
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 24px;
+
+.container_menu_bar > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.container_menu_bar > ul > li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.container_menu_bar > ul > li > a {
+  text-decoration: none;
 }

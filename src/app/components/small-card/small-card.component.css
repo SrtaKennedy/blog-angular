@@ -1,3 +1,25 @@
-p {
-  color: wheat;
+.container_small_card {
+  /* border: 1px solid wheat; */
+  width: 700px;
+  margin-bottom: 15px;
+}
+
+.container_small_card_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.small_card_image > img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.small_card_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_small_card_separator {
+  margin-top: 10px;
 }

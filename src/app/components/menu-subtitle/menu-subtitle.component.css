@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap');
 
-.menu_title_container {
+.menu_subtitle_container {
   color: rgb(102, 9, 59);
 }
 
-.menu_title_container > h1 {
+.menu_subtitle_container > h2 {
   margin: 10px 0px 10px 0px;
-  font-size: 70px;
+  font-size: 40px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   text-shadow: 9px 9px 5px rgba(0, 0, 0, 0.226);
 }
-
-.menu_title_container > hr {
-  margin: 15px 0px 5px 0px;
-}
-

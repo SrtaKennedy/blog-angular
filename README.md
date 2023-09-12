@@ -1,27 +1,40 @@
-# BlogAngular
+# Blog-Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.12.
+![Sobre gatos](/image/blog.jpg)
 
-## Development server
+Este é um projeto fictício de um blog desenvolvido utilizando o framework Angular. O objetivo deste projeto é demonstrar as capacidades do Angular na criação de uma aplicação web dinâmica e responsiva para a exibição de artigos e interação com os leitores.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades Principais
 
-## Code scaffolding
+- Navegar entre páginas.
+- Visualização individual de artigos.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Pré-requisitos
 
-## Build
+Certifique-se de ter o seguinte instalado antes de executar o projeto:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js
+- Angular CLI
 
-## Running unit tests
+## Instalação
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone este repositório: `git clone https://github.com/seu-usuario/blog-angular.git`
+2. Navegue até o diretório do projeto: `cd blog-angular`
+3. Instale as dependências: `npm install`
 
-## Running end-to-end tests
+## Executando o Projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Execute o seguinte comando para iniciar o servidor de desenvolvimento do Angular:
 
-## Further help
+``ng serve``
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Acesse a aplicação em seu navegador através de `http://localhost:4200/`.
+
+## Contribuindo
+
+Fique à vontade para contribuir com este projeto. Sinta-se à vontade para abrir problemas (issues) ou enviar solicitações de pull (pull requests).
+
+## Autor
+
+- [@SrtaKennedy](https://github.com/SrtaKennedy/blog-angular)
+
