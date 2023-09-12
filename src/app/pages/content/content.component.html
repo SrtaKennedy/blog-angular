@@ -1,1 +1,17 @@
-<p>content works!</p>
+<div class="container_content">
+  <div class="content_cover">
+    <img src="{{ photoCover }}" alt="filhotes de gatos">
+  </div>
+
+  <div class="content_title">
+    <h1>{{ contentTitle }}</h1>
+    <hr />
+  </div>
+
+  <div class="content_descricao">
+    <p>{{ contentDescricao }}</p>
+  </div>
+  <div class="content_voltar">
+    <a [routerLink]="['']">{{ contentReturn }}</a>
+  </div>
+</div>
