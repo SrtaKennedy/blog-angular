@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+.container_big_card {
+  /* border: solid beige 2px; */
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  width: 400px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.big_card_title > h1 {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.big_card_title > h1 > a {
+  text-decoration: none;
+}
+
+.big_card_title > h1 > a:hover {
+  color: rgb(83, 4, 20);
+  background-color: rgb(223, 141, 157);
+  border: 2px;
+  border-radius: 5px;
+}
+
+.big_card_descricao > p > a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.616);
+}
+
+.big_card_descricao {
+  margin-top: 15px;
+}
+
+.big_card_image > img{
+  width: 100%;
+}
