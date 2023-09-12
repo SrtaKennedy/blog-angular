@@ -24,12 +24,12 @@
   text-decoration: none;
 }
 
-.big_card_title > h1 > a:hover {
+/* .big_card_title > h1 > a:hover {
   color: rgb(83, 4, 20);
   background-color: rgb(223, 141, 157);
   border: 2px;
   border-radius: 5px;
-}
+} */
 
 .big_card_descricao > p > a {
   text-decoration: none;

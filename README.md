@@ -38,3 +38,7 @@ Fique à vontade para contribuir com este projeto. Sinta-se à vontade para abri
 
 - [@SrtaKennedy](https://github.com/SrtaKennedy/blog-angular)
 
+<br>
+<hr>
+
+**NOTA:** _A responsividade está em construção_
