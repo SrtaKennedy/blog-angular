@@ -1,8 +1,10 @@
 # Blog-Angular
 
-![Sobre gatos](/image/blog.jpg)
+![Sobre gatos](/image/foto.jpg)
 
 Este é um projeto fictício de um blog desenvolvido utilizando o framework Angular. O objetivo deste projeto é demonstrar as capacidades do Angular na criação de uma aplicação web dinâmica e responsiva para a exibição de artigos e interação com os leitores.
+
+![Sobre gatos](/image/foto2.jpg)
 
 ## Funcionalidades Principais
 

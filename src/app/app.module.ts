@@ -8,7 +8,6 @@ import { MenuTitleComponent } from './components/menu-title/menu-title.component
 import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
-import { MenuSubtitleComponent } from './components/menu-subtitle/menu-subtitle.component';
 import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
@@ -19,7 +18,6 @@ import { ContentComponent } from './pages/content/content.component';
     BigCardComponent,
     SmallCardComponent,
     HomeComponent,
-    MenuSubtitleComponent,
     ContentComponent
   ],
   imports: [

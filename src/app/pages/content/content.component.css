@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap');
 
 .container_content {
-  border: 1px solid rgb(0, 0, 0);
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 
   margin-top: 20px;
 
@@ -13,19 +12,43 @@
   align-items: center;
 }
 
+.content_title {
+  margin-top: 15px;
+}
+
 .content_cover > img {
-  border: 5px solid rgb(148, 148, 148);
+  -webkit-box-shadow: 10px 9px 5px 0px rgba(0,0,0,0.14);
+  -moz-box-shadow: 10px 9px 5px 0px rgba(0,0,0,0.14);
+  box-shadow: 10px 9px 5px 0px rgba(0,0,0,0.14);
   border-radius: 5px;
   width: 500px;
   min-width: 500px;
   height: 250px;
 }
 
-.content_descricao {
+.container_descricao {
+  gap: 15px;
   margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .content_descricao > p {
+  text-indent: 10px;
+  margin-top: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content_outhers_descricao > p {
+  text-indent: 10px;
+  margin-top: 10px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
@@ -40,4 +63,8 @@
   font-weight: 700;
   cursor: pointer;
   text-shadow: 1px 1px 5px rgba(99, 99, 99, 0.555);
+}
+
+.content_voltar {
+  margin-top: 40px;
 }

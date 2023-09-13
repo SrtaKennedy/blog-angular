@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { dataFake } from '../../data/dataFake';
 
 @Component({
   selector: 'app-content',
@@ -7,14 +9,31 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
-  photoCover: string = "https://pirapop.com.br/wp-content/uploads/2022/10/20221029-quem-ama-cuida-ilustracao.png";
-  contentTitle: string = "Notícias personalizadas";
-  contentDescricao: string = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident voluptates cupiditate deserunt vel. Quibusdam mollitia dignissimos enim quis facere impedit! Id eligendi quam praesentium sint impedit delectus molestias deserunt dicta?";
+  photoCover: string = "";
+  contentTitle: string = "";
+  contentDescricao: string = "";
   contentReturn: string = "VOLTAR";
+  private id: string | null = "0";
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit(): void {
+    this.route.paramMap.subscribe(value =>
+      this.id = value.get("id")
+    )
+
+    this.setValuesToComponent(this.id)
+  }
+
+  setValuesToComponent(id: string | null) {
+    const result = dataFake.filter(article => article.id == id)[0]
+
+    this.contentTitle = result.title;
+    this.contentDescricao = result.descricao;
+    this.photoCover = result.photoCover;
+
   }
 
 }
