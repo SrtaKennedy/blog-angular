@@ -1,6 +1,11 @@
 # Blog-Angular
 
+Um blog de gatinhos com informações aleatórias.<br>
+Imagens de como o visual ficou:
+
 ![Sobre gatos](/image/foto.jpg)
+
+imagem 2:
 
 ![Sobre gatos](/image/foto2.jpg)
 <br>
